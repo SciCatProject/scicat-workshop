@@ -35,7 +35,7 @@ The repository has the following structure:
 
 
 ## Environment setup
-Please check the [setup file](./environement/SETUP.md) in the environment folder to create the environments and get started.
+Please check the [setup file](./environment/SETUP.md) in the environment folder to create the environments and get started.
 
 ## Slides
 To view the slides open the html file [scicat-workshop](./scicat-workshop.html).
