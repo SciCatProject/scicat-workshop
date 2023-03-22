@@ -22,7 +22,7 @@ The repository has the following structure:
     pip requirements file
 - exercises: 
   folder containing the notebooks template for each exercise
-  - exercise_1.ipynb: 
+  - exercise_6.ipynb:
     notebook template for the first exercise
 - solutions:
   folder containins all the solutions to the exercises
@@ -30,7 +30,7 @@ The repository has the following structure:
     notebook with prensentation and including solutions to the exercises
   - scicat-workshop-solutions.html
     slides with solutions
-  - exercise_1_with_solution.ipynb
+  - exercise_6_with_solution.ipynb
     python exercise with solution
 
 

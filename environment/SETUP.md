@@ -59,9 +59,9 @@ conda activate scicat-workshop-prep
 Than you open the scicat-workshop.ipynb and save it once you are done modifiying it.
 You will be able to create the slides in html format with the following command:
 ```
-jupyter dejavu ECDC_workshop.ipynb --to slides --no-prompt --TagRemovePreprocessor.remove_input_tags={\"to_remove\"}
+jupyter dejavu scicat_workshop.ipynb --to slides --no-prompt --TagRemovePreprocessor.remove_input_tags={\"to_remove\"}
 ```
 If you are interested in creating a pdf from the same notebook, you can run the following command:
 ```
-jupyter dejavu ECDC_workshop.ipynb --to pdf --no-prompt --TagRemovePreprocessor.remove_input_tags={\"to_remove\"}
+jupyter dejavu scicat_workshop.ipynb --to pdf --no-prompt --TagRemovePreprocessor.remove_input_tags={\"to_remove\"}
 ```
