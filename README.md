@@ -42,7 +42,6 @@ To view the slides open the html file [scicat-workshop.slides](./scicat-workshop
 These slides contain also the description for all the exercises and activities.
 If you want to review the notebook that has been used to create the slides, please check _scicat-workshop.ipynb_
 
-
 ## Exercises
 In the exercises folder, you will find the initial templates for all the python exercises.
 Currently, there is only one exercise ready, although the slides contains a bonus one.
