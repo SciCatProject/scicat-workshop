@@ -2,7 +2,7 @@
 ### Prepared by: Max Novelli and Jan-Lukas Wynen
 ### Version 2023/03/21
 
-This repository contains all the notebooks used to create the slides, examples and exercises for the SciCAt workshop
+This repository contains all the notebooks used to create the slides, examples and exercises for the SciCat workshop
 
 The repository has the following structure:
 - README.md: 
