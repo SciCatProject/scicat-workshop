@@ -14900,7 +14900,7 @@ You can check that you are logged in, by verifying the you name is shown at the 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Exercise-%234">Exercise #4<a class="anchor-link" href="#Exercise-%234">&#182;</a></h3><p>Retrieve the dataset derived from raw data acquired on YMIR where <strong>run number</strong> is 3931, <strong>extra entry instrument flir camera image key maximum value</strong> is equal to 3</p>
+<h3 id="Exercise-%234-(1)">Exercise #4 (1)<a class="anchor-link" href="#Exercise-%234-(1)">&#182;</a></h3><p>Retrieve the dataset derived from raw data acquired on YMIR where <strong>run number</strong> is 3931, <strong>extra entry instrument flir camera image key maximum value</strong> is equal to 3</p>
 <p>Suggestions:</p>
 <ul>
 <li>Use <strong>type</strong> field and <strong>add condition</strong> feature in the search form to retrieve the raw dataset</li>
@@ -14945,7 +14945,7 @@ You can check that you are logged in, by verifying the you name is shown at the 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ul>
+<h3 id="Exercise-%234-(2)">Exercise #4 (2)<a class="anchor-link" href="#Exercise-%234-(2)">&#182;</a></h3><ul>
 <li>Select and copy the dataset pid<ul>
 <li><em>849c591c-a42e-462b-b5b4-6345e9d2200b</em></li>
 </ul>
@@ -15013,12 +15013,40 @@ The documentation can be found here:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>We suggest to use conda and create an environment from the specification file provided in this repository.<br>
+<h3 id="Set-up:-python-environment">Set up: python environment<a class="anchor-link" href="#Set-up:-python-environment">&#182;</a></h3><p>We suggest to use conda and create an environment from the specification file provided in this repository.<br>
 The files needed to create a conda environment or to install the packages in a simple python environment using pip, are available in the folder:</p>
 <div class="highlight"><pre><span></span>environment
 </pre></div>
-<p>The instructions to create such environments are explained in details in the <a href="./environment/SETUP.md">setup</a> file.
-This file is kept up-date.</p>
+<p>Detailed instructions on how to create such environments are explained in details in the <a href="./environment/SETUP.md">setup</a> file.<br>
+In case you want to get going quickly, here is the summary:</p>
+<h4 id="Conda">Conda<a class="anchor-link" href="#Conda">&#182;</a></h4><div class="highlight"><pre><span></span>conda env create -f conda-scicat-workshop.yml
+conda activate scicat-workshop
+</pre></div>
+<h3 id="Pip">Pip<a class="anchor-link" href="#Pip">&#182;</a></h3><div class="highlight"><pre><span></span>python -m pip install -r pip-scicat-workshop.txt
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Set-up:-ssh-passwordless-login">Set up: ssh passwordless login<a class="anchor-link" href="#Set-up:-ssh-passwordless-login">&#182;</a></h3><p>To make the process smooth, we suggest to create a passowrdless login with ssh.<br>
+Here are the steps:</p>
+<ul>
+<li>set up an SSH-key for <code>login.esss.dk</code> (Please check this <a href="https://linuxize.com/post/how-to-setup-passwordless-ssh-login/">guide</a> if you need to help in this step)</li>
+<li>add it to your ssh-agent (<a href="https://www.ssh.com/academy/ssh/agent">https://www.ssh.com/academy/ssh/agent</a>)</li>
+<li>define an alias in <code>~/.ssh/config</code>:</li>
+</ul>
+
+<pre><code>Host login.esss.dk
+    HostName login.esss.dk
+    User &lt;your-username&gt;
+    IdentityFile &lt;private-key-file&gt;</code></pre>
+<p>Please read the detailed instruction provided in the <a href="./environment/SETUP.md">setup</a> file.</p>
 
 </div>
 </div>

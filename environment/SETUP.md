@@ -33,7 +33,7 @@ Omit this step if your SSH is already set up like this.
 For the time being, we have to use SSH to access the fileserver.
 To make this work smoothly,
 
-- set up an SSH-key for `login.esss.dk`
+- set up an SSH-key for `login.esss.dk` (Please check this [guide](https://linuxize.com/post/how-to-setup-passwordless-ssh-login/) if you need to help in this step)
 - add it to your ssh-agent (https://www.ssh.com/academy/ssh/agent)
 - define an alias in `~/.ssh/config`:
 
