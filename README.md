@@ -9,7 +9,7 @@ The repository has the following structure:
   this file with lots information
 - scicat-workshop.ipynb: 
   notebook used to create the workshop slides
-- scicat-wortshop.html: 
+- scicat-wortshop.slides.html: 
   html version of the slides as a normal presentation
 - images: 
   images used in the slides
@@ -23,16 +23,19 @@ The repository has the following structure:
 - exercises: 
   folder containing the notebooks template for each exercise
   - exercise_6.ipynb:
-    notebook template for the first exercise
+    notebook template for the first python exercise
+  - exercise_7.ipynb:
+    notebook template for the bonus python exercise
 - solutions:
   folder containins all the solutions to the exercises
-  - scicat-workshop-solutions.ipynb
-    notebook with prensentation and including solutions to the exercises
-  - scicat-workshop-solutions.html
+  - scicat-workshop-with-solutions.ipynb
+    notebook with presentation and including solutions to the exercises
+  - scicat-workshop-with-solutions.html
     slides with solutions
   - exercise_6_with_solution.ipynb
     python exercise with solution
-
+  - exercise_7_with_solution.ipynb
+    bonus python exercise with solution
 
 ## Environment setup
 Please check the [setup file](./environment/SETUP.md) in the environment folder to create the environments and get started.
@@ -44,7 +47,6 @@ If you want to review the notebook that has been used to create the slides, plea
 
 ## Exercises
 In the exercises folder, you will find the initial templates for all the python exercises.
-Currently, there is only one exercise ready, although the slides contains a bonus one.
 
 ## Solutions
 This folder contains a version of the slides and all the notebooks complete with the solutions according to the authors.
