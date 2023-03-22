@@ -38,7 +38,7 @@ The repository has the following structure:
 Please check the [setup file](./environment/SETUP.md) in the environment folder to create the environments and get started.
 
 ## Slides
-To view the slides open the html file [scicat-workshop](./scicat-workshop.html).
+To view the slides open the html file [scicat-workshop.slides](./scicat-workshop.slides.html).
 These slides contain also the description for all the exercises and activities.
 If you want to review the notebook that has been used to create the slides, please check _scicat-workshop.ipynb_
 
