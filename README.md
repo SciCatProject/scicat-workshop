@@ -2,7 +2,7 @@
 ### Prepared by: Max Novelli and Jan-Lukas Wynen
 ### Version 2023/03/21
 
-These repository contains all the notebooks used to create the slides, examples and exercises for the SciCAt workshop
+This repository contains all the notebooks used to create the slides, examples and exercises for the SciCAt workshop
 
 The repository has the following structure:
 - README.md: 
@@ -19,7 +19,7 @@ The repository has the following structure:
   - conda-scicat-workshop.yml: 
     conda environment file
   - pip-scicat-workshop.txt: 
-    pip requirement file
+    pip requirements file
 - exercises: 
   folder containing the notebooks template for each exercise
   - exercise_1.ipynb: 
@@ -39,7 +39,7 @@ Please check the [setup file](./environment/SETUP.md) in the environment folder 
 
 ## Slides
 To view the slides open the html file [scicat-workshop](./scicat-workshop.html).
-These slides contains also the description for all the exercises and activities.
+These slides contain also the description for all the exercises and activities.
 If you want to review the notebook that has been used to create the slides, please check _scicat-workshop.ipynb_
 
 
